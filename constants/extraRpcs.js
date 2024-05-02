@@ -4792,6 +4792,12 @@ export const extraRpcs = {
       "https://rpc.gobob.xyz", 
       "wss://rpc.gobob.xyz"
     ]
+  },
+  39656: {
+    rpcs: [
+      "https://mainnet-rpc.prmscan.org",
+      "wss://prmscan.org/socket"
+    ]
   }
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
